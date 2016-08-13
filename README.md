@@ -1,6 +1,6 @@
 ## Linear time evaluation of Matérn 3/2 GP density in Stan using the SDE representation
 
-A demonstration of how the density of a one-dimensional Matérn 3/2 Gaussian process may be evaluated sequentially in Stan (http://mc-stan.org), which in turn speeds up inference if the number of input points is high. A detailed description/documentation shall appear in my blog.
+A demonstration of how the density of a one-dimensional Matérn 3/2 Gaussian process may be evaluated sequentially in Stan (http://mc-stan.org), which in turn speeds up inference if the number of input points is high. A detailed description/documentation shall is in my blog, http://www.juhokokkala.fi/blog/posts/linear-time-evaluation-of-matern-32-gp-density-in-stan-using-the-sde-representation/. 
 
 The .stan files are the versions of the Stan model. summary*.txt contains the outputs of the stansummary tool of CmdStan with my precomputed results. Simulated data is generated with generatedata.py, which requires GPy (https://github.com/SheffieldML/GPy/). Alternatively, this repository contains pregenerated .data files. 
 
